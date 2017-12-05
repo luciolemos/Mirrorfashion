@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Exercitando elementos de tabelas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/tableone.css">
+    </head>
+    <body>
+        <div>
+            <h3>CLIENTES DA MIRRORFASHION</h3>
+                        
+            <table id="customers">
+                <caption id="myCaption">Atualizada em 12/11/2017</caption>
+                <thead>
+                    <tr>
+                        <th colspan="3">Lista de Clientes da Mirror Fashion</th>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome</th> 
+                        <th>Idade</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>LÚCIO FLÁVIO</td>
+                        <td>LEMOS</td> 
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>FÁTIMA SILVANA NOGUEIRA</td>
+                        <td>LEMOS</td> 
+                        <td>49</td>
+                    </tr>
+                    <tr>
+                        <td>DÁVIDE NOGUEIRA</td>
+                        <td>LEMOS</td> 
+                        <td>49</td>
+                    </tr>
+                    <tr>
+                        <td>NATHAN NOGUEIRA</td>
+                        <td>LEMOS</td> 
+                        <td>49</td>
+                    </tr>
+                    <tr>
+                        <td>DUQUE NOGUEIRA</td>
+                        <td>LEMOS</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>MARIA ZULEIDE</td>
+                        <td>BRITO</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>RAIMUNDO NOGUEIRA</td>
+                        <td>BRITO</td>
+                        <td>43</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+
+
+            </table>
+        </div>
+        <p>Click no botão e alterne para azul a cor da legenda da sua tabela.</p>
+
+<button onclick="myFunction()">Alternar</button>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myCaption");
+    x.style.color = "blue";
+}
+</script>
+    </body>
+</html>
